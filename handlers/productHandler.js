@@ -13,6 +13,7 @@ class ProductHandler {
       console.log(error);
     }
   }
+
   static async getProduct(id) {
     try {
       const fetchProduct = await Product.findById(id);
